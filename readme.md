@@ -47,5 +47,8 @@ The system follows a **Pub/Sub** pattern to ensure scalability across multiple s
 You can run the server directly using Go or via the Makefile.
 
 ```bash
-# OR Standard Go Command
+# Run the server
 go run cmd/server/main.go
+
+# Run the test client
+go run cmd/test/main.go
